@@ -1,4 +1,4 @@
-# 🌫️ Air Quality Classifier (with Parameters)
+# 🌫️ Air Quality Classifier
 **Model:** GradientBoostingClassifier to predict risk of NAAQS exceedance.  
 **Compliance angle:** NEMAQA + NAAQS; group risks by **station** and optionally by **company** via station→company mapping.
 
