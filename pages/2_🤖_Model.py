@@ -1,6 +1,6 @@
 import streamlit as st, pandas as pd, joblib
 from pathlib import Path
-from src.model import train, FEATURES, TARGET, predict
+from src.model import train, FEATURES, TARGET
 st.title("🤖 Train Classifier")
 WORKSPACE = st.secrets.get("workspace_key","default")
 p = Path(f"tenants/{WORKSPACE}/data/air.csv")
