@@ -1,2 +1,3 @@
-# amalungeloNPC-air-pollution-prediction-app
-This Streamlit app predicts air pollution - for industrialised areas 
+# 🌫️ Air Quality Classifier
+**Model:** GradientBoostingClassifier predicting NAAQS exceedance risk.  
+**Compliance angle:** NEMAQA, NAAQS exceedances.  
